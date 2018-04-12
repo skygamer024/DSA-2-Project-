@@ -9,7 +9,7 @@ Done as a part for the course ES 301.
 
 - Anmol Gautam ([@tarptaeya](https://github.com/tarptaeya)) 16110016
 - Meet Panchal ([@meet4](https://github.com/meet4)) 16110091
-- Shivansh Chaudhary ([@skygamer024](https://github.com/skygamer024)) 16110147
+- Shivansh Chaudhary ([@skygamer024](https://github.com/skygamer024)) 16110148
 
 ## About
 
