@@ -1,0 +1,26 @@
+<h1 id="Mazr">Mazr</h1>
+
+<p><em>Maze Generation</em> using randomised <a href='https://en.wikipedia.org/wiki/Prim%27s_algorithm'>Prim&#39;s Algorithm</a>. 
+Done as a part for the course ES 301.</p>
+<h2 id="Group-Members">Group Members</h2>
+
+<blockquote><p>(sorted alphabetically)</p>
+</blockquote>
+
+<ul><li>Anmol Gautam (<a href='https://github.com/tarptaeya'>@tarptaeya</a>) 16110016</li><li>Meet Panchal (<a href='https://github.com/meet4'>@meet4</a>) 16110091</li><li>Shivansh Chaudhary (<a href='https://github.com/skygamer024'>@skygamer024</a>) 16110148</li></ul>
+
+<h2 id="About">About</h2>
+
+<blockquote><p>From wikipedia</p>
+<p>A maize is a path or collection of paths, typically from an entrance to a
+goal</p>
+</blockquote>
+
+<p>The aim of our project is to</p>
+<ul><li>Construct a random maze using <em>Randomised Prims Algorithm</em></li><li>Solve the constructed maze using <em>Breadth First Search</em></li></ul>
+
+<h2 id="Pseudocode">Pseudocode</h2>
+
+<p>[Randomised Prims]</p>
+<ul><li>Start with a grid</li><li>Take a random cell, add it to the grid and its walls into some collection, say <code>COLL</code></li><li>while <code>COLL</code> is not empty:
+ <pre><code>- Take a random wall from the collection &amp;amp; if only one of the two cells that the wall divides is visited then,</code></pre> <pre><code>    - Make all wall a passage  and mark the unvisited cell as part of maze</code></pre> <pre><code>    - Add the neighborig walls of the cell to `COLL`</code></pre> <pre><code>- Remove the wall from `COLL`</code></pre></li></ul>
