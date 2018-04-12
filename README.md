@@ -1,4 +1,4 @@
-# Mazr
+# Maze
 
 *Maze Generation* using randomised [Prim's Algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm). 
 Done as a part for the course ES 301.
@@ -8,7 +8,7 @@ Done as a part for the course ES 301.
 > (sorted alphabetically)
 
 - Anmol Gautam ([@tarptaeya](https://github.com/tarptaeya)) 16110016
-- Meet Panchal
+- Meet Panchal ([@meet4](https://github.com/meet4)) 16110091
 - Shivansh Chaudhary ([@skygamer024](https://github.com/skygamer024)) 16110147
 
 ## About
