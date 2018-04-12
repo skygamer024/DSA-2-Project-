@@ -1,4 +1,4 @@
-# Maze
+# Mazr
 
 *Maze Generation* using randomised [Prim's Algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm). 
 Done as a part for the course ES 301.
