@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f26cd71-ced2-47e9-803a-23cdf1d75d62" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mazr.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mazr/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mazr/com/mazr/generator/Generator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mazr/com/mazr/generator/RecursiveDivisionGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mazr/com/mazr/grid/Cell$Wall.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mazr/com/mazr/grid/Cell.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Mazr/com/mazr/grid/Grid.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mazr/generator/Generator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mazr/generator/RecursiveDivisionGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mazr/grid/Cell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mazr/grid/Grid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,8 +72,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -285,12 +269,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524055066777</updated>
-      <workItem from="1524055075578" duration="6081000" />
+      <workItem from="1524055075578" duration="6204000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6081000" />
+    <option name="totallyTimeSpent" value="6204000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="26" y="21" width="1317" height="691" extended-state="0" />
@@ -307,10 +291,10 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3291592" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3297491" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3297491" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26444972" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26444972" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -399,8 +383,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
