@@ -6,23 +6,23 @@ import java.util.Random;
 
 public class Generator {
 
-    protected int width;
-    protected int height;
+    protected int rows;
+    protected int columns;
     protected Grid grid;
     protected Random random;
 
-    Generator(int width, int height) {
-        this.width = width;
-        this.height = height;
-        grid = new Grid(width, height);
+    Generator(int rows, int columns) {
+        this.rows = rows;
+        this.columns = columns;
+        grid = new Grid(rows, columns);
         random = new Random();
     }
 
-    public int getWidth() {
-        return width;
+    public int getRows() {
+        return rows;
     }
 
-    public int getHeight() {
-        return height;
+    public int getColumns() {
+        return columns;
     }
 }
