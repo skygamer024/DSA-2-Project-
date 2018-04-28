@@ -24,7 +24,8 @@ public class Grid {
         for (int i = 0; i < rows; i++) {
             List<Cell> tempList = new ArrayList<>();
             for (int j = 0; j < columns; j++) {
-                tempList.add(new Cell());
+                Cell cell = new Cell(i, j);
+                tempList.add(cell);
             }
             list.add(tempList);
         }
@@ -78,6 +79,28 @@ public class Grid {
         }
     }
 
+    public List<Cell> getNeighbour(int x, int y) {
+        List<Cell> neighbourList = new ArrayList<>();
+        for (int i = -1; i < 2; i++) {
+            for (int j = -1; j < 2; j++) {
+                if(i == 0 && j == 0){
+                    continue;
+                }
+                if (x != x + i && y != y + j) {
+                    continue;
+                }
+                if (x + i < 0 || y + j < 0) {
+                    continue;
+                }
+                if(x + i >= rows || y + j >= columns) {
+                    continue;
+                }
+                neighbourList.add(get(x + i, y + j));
+            }
+        }
+        return neighbourList;
+    }
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
@@ -108,5 +131,4 @@ public class Grid {
         }
         return sb.toString();
     }
-
 }

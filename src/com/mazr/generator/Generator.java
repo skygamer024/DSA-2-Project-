@@ -6,6 +6,7 @@ import java.util.Random;
 
 public class Generator {
 
+
     protected int rows;
     protected int columns;
     protected Grid grid;
